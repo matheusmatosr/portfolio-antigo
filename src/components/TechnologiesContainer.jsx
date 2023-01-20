@@ -16,7 +16,7 @@ const technologies = [
   { id: "html", name: "HTML5", icon: <DiHtml5 /> },
   { id: "css", name: "CSS3", icon: <DiCss3 /> },
   { id: "js", name: "JavaScript", icon: <DiJsBadge /> },
-  { id: "csharp", name: "C#", icon: <TbCSharp/> },
+  { id: "csharp", name: "C Sharp", icon: <TbCSharp/> },
   { id: "python", name: "Python", icon: <DiPython /> },
   { id: "react", name: "React", icon: <DiReact /> },
 ];
@@ -31,7 +31,6 @@ const TechnologiesContainer = () => {
             {tech.icon}
             <div className="technology-info">
               <h3>{tech.name}</h3>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
             </div>
           </div>
         ))}
