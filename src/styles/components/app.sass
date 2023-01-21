@@ -11,6 +11,15 @@
         color: variables.$text-color
         font-size: 5rem
         margin-bottom: 4rem
-        background: variables.$gradient
+        background: variables.$new
         -webkit-background-clip: text
         -webkit-text-fill-color: transparent
+
+@media(max-width: variables.$breakpoint) 
+    #portfolio
+        display: block
+        flex-direction: center
+        h1
+            width: 100%
+            font-size: 2rem
+            margin-bottom: 1rem
