@@ -17,3 +17,9 @@
     background: variables.$gradient
     height: 3px
     width: 30%
+
+@media(max-width: variables.$breakpoint) 
+    @mixin center
+        display: grid
+        justify-content: center
+        align-items: center
