@@ -13,7 +13,7 @@ const SocialNetworkContainer = () => {
   return (
     <section id="social-networks">
       {socialNetworks.map((network) => (
-        <a href="https://www.linkedin.com/in/matheus-matos-03a543252/" className="social-btn" id={network.name} key={network.name}>
+        <a href="https://www.linkedin.com/in/matheus-matos-1a523221b/" className="social-btn" id={network.name} key={network.name}>
           {network.icon}
         </a>
       ))},
